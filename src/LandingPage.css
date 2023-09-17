@@ -1,0 +1,46 @@
+/* src/components/LandingPage.css */
+.landing-page {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw; /* Full viewport width */
+    height: 100vh; /* Full viewport height */
+    border: 45px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #55ccff; /* Optional background color */
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  .landing-page h1 {
+    font-size: 36px; /* Customize the title font size */
+    margin-bottom: 10px; /* Adjust spacing as needed */
+  }
+  
+  .landing-page p {
+    font-size: 18px; /* Customize the paragraph font size */
+    margin-bottom: 20px; /* Adjust spacing as needed */
+  }
+  
+  
+  .landing-page button {
+    background-color: #0b1622; /* Customize button background color */
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .landing-page button:hover {
+    transform: scale(1.1);
+  }
+
+  .buttons-div{
+    display: flex;
+    width: 50vw;
+    height: 10vh;
+    justify-content: space-between;
+  }
